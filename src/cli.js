@@ -157,7 +157,7 @@ $(() => {
         resumeData,
         rootData,
         skillsData,
-        talksData,
+        projectsData,
       ) => {
         systemData['about'] = aboutData[0];
         systemData['contact'] = contactData[0];
@@ -167,7 +167,7 @@ $(() => {
         systemData['resume'] = resumeData[0];
         systemData['root'] = rootData[0];
         systemData['skills'] = skillsData[0];
-        systemData['projects'] = talksData[0];
+        systemData['projects'] = projectsData[0];
       },
     );
 
